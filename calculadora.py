@@ -3,9 +3,13 @@
 def sumar(a, b):
     return a + b
 
-if _name_=="_main_"
-    num1 = 5
-    num2 = 3
+def sumar(a, b):
+    return a - b
+
+if _name_=="_main_":
+    num1 = 10
+    num2 = 4
     resultado = sumar(num1, num2)
-    print(f"El resultado de la suma es {resultado}")
+    print(f"El resultado de la suma es {sumar(num1, num2)}")
+    print(f"El resultado de la resta es {restar(num1, num2)}")
 
